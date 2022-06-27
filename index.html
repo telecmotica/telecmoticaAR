@@ -36,9 +36,7 @@
         <!-- ASSETS -->
         <!-- Create assets for models/images/videos/etc-->
             <a-assets>
-                <!-- <a-asset-item id="3dmodel" src="./resources/model/assistant/robot.gltf"></a-asset-item> -->
-                <a-asset-item id="3dmodel" src="./resources/model/test.obj"></a-asset-item>
-                <a-asset-item id="3dmodel_mtl" src="./resources/model/test.mtl"></a-asset-item>
+                <a-asset-item id="3dmodel" src="./resources/model/robot/robot_animation.gltf"></a-asset-item>
                 <img id="logo_img" src="./resources/images/logo_telecmotica.png">
                 <img id="rollup1_img" src="./resources/images/rollup1.jpeg">
                 <img id="rollup2_img" src="./resources/images/rollup2.jpeg">
@@ -69,9 +67,7 @@
                 ></a-entity>
 
                 <!-- 3D MODELS-->
-                 <a-entity obj-model="obj: #3dmodel mtl: #3dmodel_mtl" scale="1 1 1"
-                rotation="-90 0 0" animation-mixer></a-entity>
-                                <a-entity gltf-model="#3dmodel" id="assistant" 
+                <a-entity gltf-model="#3dmodel" id="assistant" 
                 scale="1 1 1"
                 rotation="-90 0 0"
                 position="0 0 1"
